@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/theworkflow/mongo-cron-backup#readme",
   "dependencies": {
+    "joi": "10.2.1",
     "s3-mongodump": "1.1.0"
   }
 }
