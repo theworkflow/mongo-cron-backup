@@ -4,7 +4,7 @@
   "description": "Cron job to backup mongo database host",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/theworkflow/mongo-cron-backup#readme",
   "dependencies": {
+    "@modulus/logger": "1.2.0",
     "cron": "1.2.1",
     "joi": "10.2.1",
     "s3-mongodump": "1.1.0"
