@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/theworkflow/mongo-cron-backup/issues"
   },
-  "homepage": "https://github.com/theworkflow/mongo-cron-backup#readme"
+  "homepage": "https://github.com/theworkflow/mongo-cron-backup#readme",
+  "dependencies": {
+    "s3-mongodump": "1.1.0"
+  }
 }
