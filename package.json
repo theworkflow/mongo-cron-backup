@@ -29,6 +29,7 @@
   "dependencies": {
     "@modulus/logger": "1.2.0",
     "cron": "1.2.1",
+    "hapi": "16.1.0",
     "joi": "10.2.1",
     "s3-mongodump": "1.1.0"
   },
