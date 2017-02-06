@@ -4,7 +4,8 @@
   "description": "Cron job to backup mongo database host",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
