@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+  mongo-backup:
+    container_name: mongo-backup
+    image: harlanj/mongo-cron-backup:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .env
+    environment:
+      PORT: 80
+      NODE_ENV: development
+    ports:
+      - 8000:80
+    volumes:
+      - .:/usr/src/app
+    links:
+      - mongo
+    command: npm start
+
+  mongo:
+    container_name: mongo
+    image: mongo:3.2
