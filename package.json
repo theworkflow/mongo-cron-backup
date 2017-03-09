@@ -1,6 +1,6 @@
 {
   "name": "mongo-cron-backup",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Cron job to backup mongo database host",
   "main": "index.js",
   "scripts": {
